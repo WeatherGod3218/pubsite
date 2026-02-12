@@ -160,15 +160,8 @@ a.btn {
   color: #fff; /* White text for contrast */
   text-align: center;
   padding: 10px 20px;
-  position: fixed;
-  top: 0;
   width: 100%;
-  z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.navbar {
-  margin-top: 50px; /* Adjust this value to match the height of the banner */
 }
 
 #info-banner p {
