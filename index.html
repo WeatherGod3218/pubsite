@@ -3,6 +3,7 @@ layout: default
 active: home
 ---
 
+
 <div style="top:0;position:absolute;display: inline;">
 <!-- Floating scroll-down button -->
     <button id="carousel-scroll-down-button"  aria-label="Scroll to the end/bottom of the image carousel">
@@ -240,3 +241,11 @@ active: home
         </div>
     </div>
 </div>
+
+<!-- Javascript for 50th Info Banner -->
+<script>
+    // Close banner functionality
+    document.getElementById('close-banner').addEventListener('click', function() {
+        document.getElementById('info-banner').style.display = 'none';
+    });
+</script>
