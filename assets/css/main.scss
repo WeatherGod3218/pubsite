@@ -156,7 +156,7 @@ a.btn {
 
 // CSS For 50th Info Banner
 #info-banner {
-  background-color: rgba(255, 0, 0, 0.5); /* Red background with 50% opacity */
+  background-color: rgba(255, 0, 255, 0.5); /* Red background with 50% opacity */
   color: #fff; /* White text for contrast */
   text-align: center;
   padding: 10px 20px;
@@ -182,12 +182,12 @@ a.btn {
 }
 
 #info-banner a {
-  color: green; /* Set the link color to blue */
+  color: lime; /* Set the link color to blue */
   text-decoration: underline; /* Optional: Add underline for better visibility */
 }
 
 #info-banner a:visited {
-  color: green; /* Ensure visited links also remain blue */
+  color: lime; /* Ensure visited links also remain blue */
 }
 
 
